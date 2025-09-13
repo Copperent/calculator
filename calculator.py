@@ -1,7 +1,3 @@
-5
-
-
-
 from tkinter import *
 
 win = Tk()
@@ -59,3 +55,4 @@ Button(win, text=".", command=lambda: addValue("."), **btn_params).grid(row=5, c
 Button(win, text="C", command=lambda: e1.delete(0, END), **btn_params).grid(row=5, column=3, padx=5, pady=5)
 
 win.mainloop()
+
